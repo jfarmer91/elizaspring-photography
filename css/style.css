@@ -1,0 +1,92 @@
+html, body {
+  height:100%;
+  position: flex;
+}
+/*overlay start*/
+#initial-overlay {
+  display:block;
+  color: #fff;
+  background-color: #000;
+  height: 100vh;
+  z-index: 1000;
+}
+#logo-overlay {
+  position: fixed;
+  top: calc((100% - 145px)/2);
+  left: calc((100% - 275px)/2);
+}
+/*overlay end*/
+
+#body-main {
+  display:none;
+  color: #000;
+  background-color: #fff;
+  /*height: 100vh;*/
+  z-index: 1;
+}
+
+/*#down-arrow {
+  position:absolute;
+  top: 90%;
+  left: calc((100% - 64px)/2)
+}*/
+
+#coming-soon {
+  position:absolute;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  top: 80%;
+  left: calc((100% - 178px)/2)
+}
+
+/*.dropdown-toggle {
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: #fff;
+}
+
+.dropdown-menu-right {
+  top: 40px;
+}*/
+
+.logo {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.logo-text-big {
+  font-size: 48px;
+}
+
+.logo-text-small {
+  font-size: 20px;
+}
+
+#logo-overlay {
+  position: fixed;
+  top: calc((100% - 145px)/2);
+  left: calc((100% - 275px)/2);
+}
+
+#logo-main {
+  position: absolute;
+  top: calc((100% - 145px)/2);
+  left: calc((100% - 275px)/2);
+  z-index: 2;
+}
+
+/*#pictures-main {
+  position: absolute;
+  top: calc(105%);
+}*/
+
+
+
+/* Gradient color1 - color2 - color1 */
+hr.style-one {
+    border: 0;
+    height: 1.25px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
