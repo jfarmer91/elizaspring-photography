@@ -33,11 +33,50 @@ html, body {
 
 #coming-soon {
   position:absolute;
+  visibility: hidden;
   font-family: 'Montserrat';
   font-size: 24px;
   top: 80%;
   left: calc((100% - 157px)/2)
 }
+
+#dance {
+  position:absolute;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  top: 20px;
+  left: 20px;
+  /*left: calc((100% - 157px)/2)*/
+}
+
+#mm35 {
+  position:absolute;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  top: 20px;
+  right: 20px;
+  /*left: calc((100% - 157px)/2)*/
+}
+
+#tryptic {
+  position:absolute;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  bottom: 20px;
+  left: 20px;
+  /*left: calc((100% - 157px)/2)*/
+}
+
+#commissioned {
+  position:absolute;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  bottom: 20px;
+  right: 20px;
+  /*left: calc((100% - 157px)/2)*/
+}
+
+
 
 /*.dropdown-toggle {
   position: absolute;
