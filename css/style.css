@@ -31,6 +31,11 @@ html, body {
   left: calc((100% - 64px)/2)
 }*/
 
+.image-main-page {
+  position:absolute;
+  top: 40%;  
+}
+
 .link-main-page {
   color: #000;
   text-decoration: none;
@@ -98,15 +103,15 @@ html, body {
   font-size: 20px;
 }
 
-#logo-overlay {
+/*#logo-overlay {
   position: fixed;
   top: calc((100% - 145px)/2);
   left: calc((100% - 275px)/2);
-}
+}*/
 
 #logo-main {
   position: absolute;
-  top: calc((100% - 145px)/2);
+  top: calc((40% - 145px)/2);
   left: calc((100% - 275px)/2);
   z-index: 2;
 }
