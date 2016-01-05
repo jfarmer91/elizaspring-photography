@@ -31,6 +31,11 @@ html, body {
   left: calc((100% - 64px)/2)
 }*/
 
+.link-main-page {
+  color: #000;
+  text-decoration: none;
+}
+
 #coming-soon {
   position:absolute;
   visibility: hidden;
