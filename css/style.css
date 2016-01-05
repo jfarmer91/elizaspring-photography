@@ -40,39 +40,30 @@ html, body {
   left: calc((100% - 157px)/2)
 }
 
-#dance {
+#page-portfolio {
   position:absolute;
   font-family: 'Montserrat';
   font-size: 20px;
-  top: 20px;
-  left: 20px;
+  bottom: 10px;
+  left: 10px;
   /*left: calc((100% - 157px)/2)*/
 }
 
-#mm35 {
+#page-info {
   position:absolute;
   font-family: 'Montserrat';
   font-size: 20px;
-  top: 20px;
-  right: 20px;
+  bottom: 10px;
+  left: calc((100% - 40px)/2);
   /*left: calc((100% - 157px)/2)*/
 }
 
-#tryptic {
+#page-contact {
   position:absolute;
   font-family: 'Montserrat';
   font-size: 20px;
-  bottom: 20px;
-  left: 20px;
-  /*left: calc((100% - 157px)/2)*/
-}
-
-#commissioned {
-  position:absolute;
-  font-family: 'Montserrat';
-  font-size: 20px;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   /*left: calc((100% - 157px)/2)*/
 }
 
