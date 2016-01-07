@@ -21,9 +21,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-  <link rel="stylesheet" href="css/style.css">
-
-  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/contact.css">
 
   <script src="http://localhost:35729/livereload.js"></script>
 </head>
@@ -31,23 +29,24 @@
 <body>
   <div id="body-main">
 
+    <div id="logo-header">
+      <h1 class="logo logo-text-big" id="edupont">eliza spring</h1>
+      <hr class="logo style-one">
+      <h6 class="logo logo-text-small" id="photography">photography</h6>
+    </div>
+
+
+    <div id="contact-paragraph">
+      <p>If you have any questions about my work or like to discuss a potential shoot, please do not hesitate to email me.</p>
+    </div>
+
+
+
     <h4 id="page-home">home</h4>
     <h4 id="page-portfolio">portfolio</h4>
     <h4 id="page-info">info</h4>
-    <h4 id="page-contact">contact</h4>
-
 
   </div>
 </body>
-
-<script>
-  $(document).ready(function(){
-    $("#edupont-overlay").ready(function(){
-      $("#initial-overlay").delay(2000).fadeOut(2500, function(){
-        $("#body-main").fadeIn(2000);
-      });
-    });
-  });
-</script>
 
 </html>
