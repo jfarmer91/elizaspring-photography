@@ -31,25 +31,20 @@ hr.style-one {
   padding-right: 25px;
   padding-left: 25px;
   top: 25%;
-  /*font-family: 'Montserrat';*/
   font-size: 16px;
   text-align:center;
 }
 
 #email {
   position:absolute;
-  padding-right: 25px;
-  padding-left: 25px;
   top: 50%;
-  /*font-family: 'Montserrat';*/
   font-size: 16px;
-  text-align:center;
+  left: calc((100% - 65px)/2);
 }
 
 
 #page-home {
   position:absolute;
-  font-family: 'Montserrat';
   font-size: 20px;
   bottom: 10px;
   left: 10px;
@@ -57,7 +52,6 @@ hr.style-one {
 
 #page-portfolio {
   position:absolute;
-  font-family: 'Montserrat';
   font-size: 20px;
   bottom: 10px;
   left: calc((100% - 88px)/2);
@@ -65,7 +59,6 @@ hr.style-one {
 
 #page-info {
   position:absolute;
-  font-family: 'Montserrat';
   font-size: 20px;
   bottom: 10px;
   right: 10px;
