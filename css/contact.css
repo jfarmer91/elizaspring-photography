@@ -5,6 +5,11 @@ html, body {
 #logo-header {
   position: absolute;
   top: 5px;
+  left: calc((100% - 236px)/2);
+}
+
+.logo {
+  text-align: center;
 }
 
 .logo .logo-text-big {
@@ -39,7 +44,7 @@ hr.style-one {
   position:absolute;
   top: 50%;
   font-size: 16px;
-  left: calc((100% - 65px)/2);
+  left: calc((100% - 107px)/2);
 }
 
 
