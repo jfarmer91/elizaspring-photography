@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
 
-  <title>eliza spring photography : info</title>
+  <title>eliza du pont | photography | contact</title>
 
   <link rel="shortcut icon" type="image/png" href="img/original/favicon.png"/>
 
@@ -21,7 +21,7 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/info.css">
 
   <script src="js/main.js"></script>
 
@@ -29,38 +29,19 @@
 </head>
 
 <body>
-  <div id="initial-overlay">
-    <div id="logo-overlay">
-      <h1 class="logo logo-text-big" id="edupont-overlay">eliza spring</h1>
-      <hr class="logo style-one">
-      <h6 class="logo logo-text-small" id="photography-overlay">photography</h6>
-    </div>
-  </div>
 
   <div id="body-main">
 
-    <div id="logo-main">
-      <h1 class="logo logo-text-big" id="edupont-overlay">eliza spring</h1>
+    <div id="logo-header">
+      <h1 class="logo logo-text-big" id="edupont-overlay">eliza du pont</h1>
       <hr class="logo style-one">
       <h6 class="logo logo-text-small" id="photography-overlay">photography</h6>
     </div>
-    <h3 id="coming-soon">coming soon</h3>
 
-    <h4 id="page-portfolio">portfolio</h4>
-    <h4 id="page-info">info</h4>
-    <h4 id="page-contact">contact</h4>
+    <a class="link-main-page" id="page-home" href="index.html">home</a>
+    <a class="link-main-page" href="portfolio.html" id="page-portfolio">portfolio</a>
+    <a class="link-main-page" href="contact.html" id="page-contact">contact</a>
 
   </div>
 </body>
-
-<script>
-  $(document).ready(function(){
-    $("#edupont-overlay").ready(function(){
-      $("#initial-overlay").delay(2000).fadeOut(2500, function(){
-        $("#body-main").fadeIn(2000);
-      });
-    });
-  });
-</script>
-
 </html>
