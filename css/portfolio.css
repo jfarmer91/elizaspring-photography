@@ -1,0 +1,61 @@
+html, body {
+  font-family: 'Montserrat';
+}
+
+.link-main-page {
+  color: #000;
+  text-decoration: none;
+}
+
+
+#logo-header {
+  position: absolute;
+  top: 5px;
+  left: calc((100% - 236px)/2);
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo .logo-text-big {
+  font-size: 36px;
+}
+
+/* Gradient color1 - color2 - color1 */
+hr.style-one {
+    border: 0;
+    height: 1.25px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.logo .logo-text-small {
+  font-size: 18px;
+  left:90px;
+}
+
+
+#page-home {
+  position:absolute;
+  font-size: 20px;
+  bottom: 10px;
+  left: 10px;
+}
+
+#page-info {
+  position:absolute;
+  font-size: 20px;
+  bottom: 10px;
+  left: calc((100% - 39px)/2);
+}
+
+#page-contact {
+  position:absolute;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  bottom: 10px;
+  right: 10px;
+}
